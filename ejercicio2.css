@@ -1,0 +1,41 @@
+#contenedor{
+	position: relative;
+	top: 100px;
+	left: 100px;
+	width: 600px;
+	height: 600px;
+	border: 2px solid black;
+	display: inline-flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+#primero{
+	color: white;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#segundo{
+	color: white;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#tercero{
+	color: white;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
